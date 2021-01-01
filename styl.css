@@ -1,0 +1,231 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(48, 162, 255);
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+nav a{
+    text-decoration: none;
+    font-size: larger;
+    color:white;
+    padding:2vw;
+}
+.logo a img{
+    margin-top:1vw;
+    width: 30%;
+    height: auto;
+}
+main{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+}
+main div{
+    margin: 1vw;
+    margin-left: 2vw;
+}
+#intro{
+    background-color:rgb(48, 162, 255);
+    display: flex;
+    flex-direction: row;
+
+}
+.class1{
+    width: 50%;
+    height: auto;
+    padding: 5%;
+}
+.class2{
+    width: 50%;
+    height: auto;
+}
+.class2 img{
+    width: 100%;
+    height: auto;
+}
+#f{
+    font-size: 5vw;
+    color:black;
+    text-align: center;
+}
+#s{
+    font-size: 5vw;
+    color:white;
+    text-align: center; /* working */
+}
+.but{
+    display: flex;
+    justify-content: center;
+}
+.but1 button{
+    background-color: black;
+    color: white;
+    width: 80%;
+    font-size: x-large;
+    height: auto;
+    padding: 1vw;
+    margin: 3vw;
+    border-radius: 30%;
+    font-family: cursive;
+}
+.but2 button{
+    background-color:white;
+    color: black;
+    width: 80%;
+    font-size: x-large;
+    height: auto;
+    padding: 1vw;
+    margin: 3vw;
+    border-radius: 30%;
+    font-family: cursive;
+}
+.ff{
+    flex-basis: 21%;  
+
+}
+.ff img{
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+}
+.ff h3{
+text-align: center;
+}
+.ff button{
+    color: white;
+    background-color: rgb(0, 76, 216);
+    width: 25%;
+    height: auto;
+    margin-left: 36%;
+    border-radius: 5px;
+    font-size: small;
+}
+.ff button:hover{
+    width: 40%;
+    height: auto;
+    color: black;
+    background-color: rgb(80, 221, 231);
+}
+nav a:hover{
+    text-align: center;
+    font-size: x-large;
+    color: black;
+}
+.but1 button:hover{
+    background-color: rgb(121, 49, 189);
+}
+.but2 button:hover{
+    background-color: rgb(49, 241, 161);
+}
+footer{
+    display: flex;
+
+}
+.foot1 a img{
+    width: 10%;
+    height: auto;
+    margin-top: 1vw;
+    margin-left: 8vw;
+}
+.foot1{
+    background-color:rgb(48, 162, 255);
+    width: 50%;
+    height: auto;
+}
+.foot2{
+    display: flex;
+    background-color:rgb(48, 162, 255);
+    width: 50%;
+    height: auto;
+}
+.foot2 div{
+    margin-left: 3vw;
+    margin-top: 1vw;
+}
+.foot1 a img:hover{
+    background-color: #fff;
+}
+@media(max-width:500px){
+nav{
+    background-color: rgb(48, 162, 255);
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+nav a{
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.ff{
+    margin-top: 12vw;
+}
+#intro{
+    background-color:rgb(48, 162, 255);
+    display: flex;
+    flex-direction: column-reverse;
+}
+.but{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    .class1{
+        width: 100%;
+        height: auto;
+        padding: 5%;
+    }
+    .class2{
+        width: 100%;
+        height: auto;
+    }
+    #f{
+        font-size: 15vw;
+        color:black;
+        text-align: center;
+    }
+    #s{
+        font-size: 15vw;
+        color:white;
+        text-align: center;
+    }
+    main div{
+        margin: 3vw;
+        
+    }
+    .logo a img{
+       margin-left: 32vw;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .foot1{
+        background-color:rgb(48, 162, 255);
+        width: 100%;
+        height: auto;
+       
+    }
+    .foot1 a img{
+        margin-left: 18vw;
+    }
+    .foot2{
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(48, 162, 255);
+        width: 100%;
+        height: auto;
+    }
+}
