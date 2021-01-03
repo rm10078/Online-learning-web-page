@@ -170,6 +170,12 @@ main{
 }
 .ff{
     margin-top: 12vw;
+    margin-left: 11%;
+}
+.ff img{
+    width: 90%;
+    height: auto;
+    border-radius: 40px;
 }
 #intro{
     background-color:rgb(48, 162, 255);
